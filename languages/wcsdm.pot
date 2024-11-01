@@ -1,0 +1,622 @@
+# Copyright (C) 2024 WooCommerce-Shipping-Distance-Matrix
+# This file is distributed under the same license as the WooCommerce-Shipping-Distance-Matrix package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce-Shipping-Distance-Matrix\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/helpers.php:41
+msgid "Add New Rate"
+msgstr ""
+
+#: includes/helpers.php:42
+msgid "Address"
+msgstr ""
+
+#: includes/helpers.php:43
+msgid "Apply Changes"
+msgstr ""
+
+#: includes/helpers.php:44
+msgid "Cancel"
+msgstr ""
+
+#: includes/helpers.php:45
+msgid "Confirm Delete"
+msgstr ""
+
+#: includes/helpers.php:46
+msgid "Delete Selected Rates"
+msgstr ""
+
+#: includes/helpers.php:47
+msgid "Please drag this marker or enter your address in the input field above."
+msgstr ""
+
+#: includes/helpers.php:48
+msgid "Latitude"
+msgstr ""
+
+#: includes/helpers.php:49
+msgid "Longitude"
+msgstr ""
+
+#: includes/helpers.php:50
+msgid "Save Changes"
+msgstr ""
+
+#: includes/helpers.php:51
+msgid "Store Location Picker"
+msgstr ""
+
+#. translators: %s = Field name.
+#: includes/helpers.php:53
+msgid "%s field is required."
+msgstr ""
+
+#. translators: %s = Field name.
+#: includes/helpers.php:55
+msgid "%s field value must be numeric."
+msgstr ""
+
+#. translators: %1$s = Field name, %2$d = Minimum field value rule.
+#: includes/helpers.php:57
+msgid "%1$s field value cannot be lower than %2$.d"
+msgstr ""
+
+#. translators: %1$s = Field name, %2$d = Maximum field value rule.
+#: includes/helpers.php:59
+msgid "%1$s field value cannot be greater than %2$d"
+msgstr ""
+
+#. translators: %1$d = row number, %2$s = error message.
+#: includes/helpers.php:61
+msgid "Shipping rules combination duplicate with rate row #%1$d: %2$s."
+msgstr ""
+
+#. translators: %1$d = row number, %2$s = error message.
+#: includes/helpers.php:63
+msgid "Table rate row #%1$d: %2$s."
+msgstr ""
+
+#: includes/helpers.php:64
+msgid "Table rates data is incomplete or invalid!"
+msgstr ""
+
+#: includes/classes/class-wcsdm-api.php:88
+msgid "API response is empty."
+msgstr ""
+
+#: includes/classes/class-wcsdm-api.php:136
+msgid "Origin and/or destination of this pairing could not be geocoded."
+msgstr ""
+
+#: includes/classes/class-wcsdm-api.php:137
+msgid "No route could be found between the origin and destination."
+msgstr ""
+
+#: includes/classes/class-wcsdm-api.php:138
+msgid "Requested route is too long and cannot be processed."
+msgstr ""
+
+#: includes/classes/class-wcsdm-api.php:139
+msgid "Unknown error."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:97
+msgid "WooCommerce shipping rates calculator allows you to easily offer shipping rates based on the distance calculated using Google Maps Distance Matrix Service API."
+msgstr ""
+
+#. translators: %s is data migration version.
+#: includes/classes/class-wcsdm-shipping-method.php:228
+msgid "Data migrated to version %s"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:256
+msgid "General Settings"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:259
+msgid "Tax Status"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:262
+msgid "Tax status of fee."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:266
+msgid "Taxable"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:267, includes/classes/class-wcsdm-shipping-method.php:416, includes/classes/class-wcsdm-shipping-method.php:529, includes/classes/class-wcsdm-shipping-method.php:576
+msgid "None"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:271
+msgid "Enable Log"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:272, includes/classes/class-wcsdm-shipping-method.php:479, includes/classes/class-wcsdm-shipping-method.php:487
+msgid "Yes"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:275
+msgid "Write data to WooCommerce System Status Report Log for importance event such API response error and shipping calculation failures. <a href=\"admin.php?page=wc-status&tab=logs\" target=\"_blank\">Click here</a> to view the log data."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:282
+msgid "Store Location Settings"
+msgstr ""
+
+#. translators: %s is URL to the external link.
+#: includes/classes/class-wcsdm-shipping-method.php:284
+msgid "This plugin requires Google API Key and also need to have the following APIs services enabled: Distance Matrix API, Maps JavaScript API, Geocoding API, Places API. Please <a href=\"%s\" target=\"_blank\">click here</a> to go to the Google API Console to create API Key and to enable the API services."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:287
+msgid "Distance Calculator API Key"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:290
+msgid "API Key used to calculate the shipping address distance."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:303
+msgid "Location Picker API Key"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:306
+msgid "API Key used to render the location picker map."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:321
+msgid "Store Origin Data Type"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:324
+msgid "Preferred data that will be used as the origin info when calculating the distance."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:328
+msgid "Coordinate (Recommended)"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:329
+msgid "Address (Less Accurate)"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:341
+msgid "Store Location Latitude"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:344
+msgid "Store location latitude coordinates"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:357
+msgid "Store Location Longitude"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:360
+msgid "Store location longitude coordinates"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:373
+msgid "Store Location Address"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:376
+msgid "Store location full address"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:392
+msgid "Route Settings"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:395
+msgid "Travel Mode"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:398
+msgid "Google Maps Distance Matrix API travel mode parameter."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:402
+msgid "Driving"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:403
+msgid "Walking"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:404
+msgid "Bicycling"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:409
+msgid "Route Restrictions"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:412
+msgid "Google Maps Distance Matrix API route restrictions parameter."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:417
+msgid "Avoid Tolls"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:418
+msgid "Avoid Highways"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:419
+msgid "Avoid Ferries"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:420
+msgid "Avoid Indoor"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:425
+msgid "Preferred Route"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:428
+msgid "Preferred route that will be used for calculation if API provide several routes"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:432
+msgid "Shortest Distance"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:433
+msgid "Longest Distance"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:434
+msgid "Shortest Duration"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:435
+msgid "Longest Duration"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:439
+msgid "Distance Units"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:442
+msgid "Google Maps Distance Matrix API distance units parameter."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:446
+msgid "Kilometer"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:447
+msgid "Mile"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:460
+msgid "Rate per Kilometer"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:461
+msgid "Rate per Mile"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:478
+msgid "Round Up Distance"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:482
+msgid "Round up the calculated shipping distance with decimal to the nearest absolute number."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:486
+msgid "Show Distance Info"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:490
+msgid "Show the distance info to customer during checkout."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:497
+msgid "Default Rates Settings"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:498
+msgid "Default settings that will be inherited by certain settings in table rates when the value is empty."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:501
+msgid "Label"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:504
+msgid "This controls the label which the user sees during checkout."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:523
+msgid "Surcharge Type"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:525
+msgid "Surcharge type that will be added to the total shipping cost."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:530, includes/classes/class-wcsdm-shipping-method.php:577
+msgid "Fixed"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:531, includes/classes/class-wcsdm-shipping-method.php:578
+msgid "Percentage"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:544
+msgid "Surcharge Amount"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:546
+msgid "Surcharge amount that will be added to the total shipping cost."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:560
+msgid "Surcharge"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:570
+msgid "Discount Type"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:572
+msgid "Discount type that will be deducted to the total shipping cost."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:591
+msgid "Discount Amount"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:593
+msgid "Discount amount that will be deducted to the total shipping cost."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:607
+msgid "Discount"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:617
+msgid "Total Cost Type"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:619
+msgid "Determine how is the total shipping cost will be calculated."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:623
+msgid "Max - Set highest item cost as total (Flat)"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:624
+msgid "Average - Set average item cost as total (Flat)"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:625
+msgid "Min - Set lowest item cost as total (Flat)"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:626
+msgid "Per Class - Accumulate total by grouping the product shipping class (Progressive)"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:627
+msgid "Per Product - Accumulate total by grouping the product ID (Progressive)"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:628
+msgid "Per Piece - Accumulate total by multiplying the quantity (Progressive)"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:642
+msgid "Minimum Cost"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:644
+msgid "Minimum cost that will be applied. The calculated shipping cost will never be lower than whatever amount set into this field. Set as zero value to disable."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:664
+msgid "Maximum Cost"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:666
+msgid "Maximum cost that will be applied. The calculated shipping cost will never be greater than whatever amount set into this field. Set as zero value to disable."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:687, includes/classes/class-wcsdm-shipping-method.php:692
+msgid "Table Rates Settings"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:688
+msgid "Calculate shipping costs based on the distance to the shipping address and advanced rules. During checkout, the applicable rate is determined by the first row that matches the maximum distance rule and any defined advanced rules. You can manually prioritize rate rows by dragging them vertically when there are rows with the same maximum distance values."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:698
+msgid "Advanced Rate Settings"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:702
+msgid "Advanced Table Rate Settings"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:735
+msgid "General"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:742
+msgid "Shipping Rules"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:754
+msgid "Max Distance"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:755
+msgid "The maximum distances rule for the shipping rate. This input is required."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:770
+msgid "Min Order Amount"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:771
+msgid "The shipping rule for minimum order amount. Leave blank or fill with zero value to disable this rule."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:785
+msgid "Max Order Amount"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:786
+msgid "The shipping rule for maximum order amount. Leave blank or fill with zero value to disable this rule."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:800
+msgid "Min Order Quantity"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:801
+msgid "The shipping rule for minimum order quantity. Leave blank or fill with zero value to disable this rule."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:816
+msgid "Max Order Quantity"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:817
+msgid "The shipping rule for maximum order quantity. Leave blank or fill with zero value to disable this rule."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:832
+msgid "Shipping Rates"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:839
+msgid "Distance Unit Rate"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:840
+msgid "The shipping rate within the distances range. Zero value will be assumed as free shipping."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:855
+msgid "Total Cost"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:865
+msgid "Advanced"
+msgstr ""
+
+#. translators: %s is Product shipping class name.
+#: includes/classes/class-wcsdm-shipping-method.php:895
+msgid "\"%s\" Shipping Class Rate"
+msgstr ""
+
+#. translators: %s is Product shipping class name.
+#: includes/classes/class-wcsdm-shipping-method.php:897
+msgid "Rate for \"%s\" shipping class products. Leave blank to use defined default rate above."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:928
+msgid "Inherit - Use default rate settings"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:940
+msgid "Leave blank to inherit from the global setting."
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:1118
+msgid "Required API Services"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:1123
+msgid "Application Restriction"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:1172
+msgid "Set Location"
+msgstr ""
+
+#. translators: %s is the error message.
+#: includes/classes/class-wcsdm-shipping-method.php:1620
+msgid "Error: %s"
+msgstr ""
+
+#. translators: %1$d = row number, %2$s = error message.
+#: includes/classes/class-wcsdm-shipping-method.php:1657
+msgid "Table rates row %1$d: %2$s"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:1722
+msgid "Shipping rates table is empty"
+msgstr ""
+
+#. translators: %s is api request parameter key.
+#: includes/classes/class-wcsdm-shipping-method.php:1808
+msgid "API request parameter is empty: %s"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:2029
+msgid "API Response data is empty"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:2041
+msgid "Calculated shipping data format is invalid"
+msgstr ""
+
+#: includes/classes/class-wcsdm-shipping-method.php:2409
+msgid "No shipping table rates rules match."
+msgstr ""
+
+#. translators: %s is field key.
+#: includes/classes/class-wcsdm-shipping-method.php:2637
+msgid "Shipping destination field is empty: %s."
+msgstr ""
+
+#. translators: %s is field key.
+#: includes/classes/class-wcsdm-shipping-method.php:2645
+msgid "Shipping destination field is invalid: %s."
+msgstr ""
+
+#. translators: %s is number of days.
+#: includes/classes/class-wcsdm-shipping-method.php:2981
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is number of hours.
+#: includes/classes/class-wcsdm-shipping-method.php:2989
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s is number of minutes.
+#: includes/classes/class-wcsdm-shipping-method.php:2997
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/classes/class-wcsdm.php:161
+msgid "Settings"
+msgstr ""

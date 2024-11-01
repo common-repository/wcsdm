@@ -1,0 +1,8 @@
+.wcsdm-col {
+  padding: 10px 5px; }
+  .wcsdm-col--type--action_link, .wcsdm-col--type--row_number, .wcsdm-col--type--select_item {
+    width: 40px !important; }
+
+.wcsdm-input-action {
+  margin: 6px 0 !important;
+  padding: 9px 10px 3px !important; }
